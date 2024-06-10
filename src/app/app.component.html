@@ -1,0 +1,6 @@
+<div class="menu-bar">
+  <button id="step1" routerLink="step1"  routerLinkActive="is-active" >Step 1</button>
+  <button id="step2" routerLink="step2" routerLinkActive="is-active" [disabled]="step2Disable">Step 2</button>
+  <button id="step3" routerLink="step3" routerLinkActive="is-active" [disabled]="step3Disable">Step 3</button>
+</div>
+<router-outlet></router-outlet>
